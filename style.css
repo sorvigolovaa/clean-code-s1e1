@@ -69,7 +69,7 @@ body {
 .main__btn:hover {
     color: #3a3A3a;
 }
-/* Heading */
+
 .main__title,label[for='new-task'] {
     color: #333;
     font-weight: 700;
