@@ -10,9 +10,11 @@ body {
     display: block;
     text-align: right;
 }
+
 .header img {
     width: 100%;
 }
+
 .header_info {
     font-family: fantasy, cursive;
 }
@@ -21,6 +23,7 @@ body {
 .header { text-align: center;
 }
 }
+
 .centered-main-page-element {
     display: block;
     width: 500px;
@@ -32,19 +35,24 @@ body {
     display: inline-block;
     flex-grow: 1
 }
+
 .task-row-wrapper {
     display: flex;
 }
+
 .main__content, .main__content2, .main__content3 {
     margin: 0;
     padding: 0px;
 }
+
 .main__nav, .main__nav2, .main__title {
     list-style: none;
 }
+
 .main__input,button{
     outline: none;
 }
+
 .edit, .delete, .main__btn {
     background: none;
     border: 0px;
@@ -54,6 +62,7 @@ body {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .edit:hover {
     color: #3a3A3a;
 }
@@ -70,6 +79,7 @@ body {
     margin: 0;
     text-transform: uppercase;
 }
+
 .main__input[type="text"] {
     margin: 0;
     font-size: 18px;
@@ -82,6 +92,7 @@ body {
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .main__input[type="text"]:focus {
     color: #333;
 }
@@ -114,6 +125,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .main__content2, .main__content3 > * {
     vertical-align: middle;
 }
@@ -121,20 +133,24 @@ body {
 .main__nav2 > .task[type="checkbox"] {
     margin: 0 10px;
 }
+
 .main__nav > .main__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .main__nav > input[type="text"] {
     width: 226px;
 }
+
 .delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .delete img:hover {
     transform: rotateZ(0);
 }
@@ -154,6 +170,7 @@ body {
     display: inline-block;
     width: 224px;
 }
+
 .editMode label {
     display: none;
 }
