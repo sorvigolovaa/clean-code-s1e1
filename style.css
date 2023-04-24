@@ -35,14 +35,14 @@ body {
     display: flex;
 }
 .main__content, .main__content2, .main__content3 {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .main__nav, .main__nav2, .main__title {
-    list-style:none;
+    list-style: none;
 }
 .main__input,button{
-    outline:none;
+    outline: none;
 }
 .edit, .delete, .main__btn {
     background: none;
@@ -126,7 +126,7 @@ body {
     width: 226px;
 }
 .main__nav > input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 .delete img {
     height: 2em;
@@ -145,13 +145,13 @@ body {
 
 /* Edit Task */
  li input[type=text] {
-    display:none
+    display: none;
 }
 
 .editMode input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px;
 }
 .editMode label {
-    display:none;
+    display: none;
 }
